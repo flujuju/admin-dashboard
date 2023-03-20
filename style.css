@@ -9,15 +9,64 @@ body {
 
 .navigation{
     grid-area: 1/1/3/2;
-    background-color: aliceblue;
+    background-color: #1992d4;
 }
 
 .header{
     grid-area: 1/2/2/3;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 .content{
     grid-area: 2/2/3/3;
     background-color: aquamarine;
+}
+
+.navigation{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.navigation img {
+    height: 2rem;
+    filter : invert(100%);
+}
+
+.title img {
+    height: 4rem;
+}
+
+
+
+.setting div{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.pages div{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.pages {
+    margin-bottom: 2rem;
+}
+
+
+.title {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 2rem;
+}
+
+.navigation h2,
+.navigation h1 {
+    justify-self: start;
 }
